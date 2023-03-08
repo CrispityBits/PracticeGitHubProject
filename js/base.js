@@ -13,7 +13,7 @@ document.getElementById('spinSlider').addEventListener('input', function() {
   let slider = document.getElementById('spinSlider')
   let audio = document.getElementById('funky')
 
-  funky.playbackRate=(parseInt(slider.value) / 5)
+  audio.playbackRate=(parseInt(slider.value) / 5)
 })
 
 rotateDiv()
